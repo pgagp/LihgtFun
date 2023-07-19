@@ -53,7 +53,7 @@ LightFun позволяет пользователю получать реком
         "commentsTotalNew": 0,
         "teseraUrl": "https://tesera.ru/game/635932",
         "isAddition": false
-    },
+
 
 2.  EDA (`pandas, numpy, matplotlib, seaborn`)
  
