@@ -8,7 +8,8 @@ LightFun позволяет пользователю получать реком
 
 Для создания этого проекта были использованы данные, полученные через API сайта о настольных играх tesera.ru и библиотеки для построения рекомендательных систем с помощью матричных разложений LightFM.
 
-![enter image description here](https://drive.google.com/file/d/12ZxvhCNtv8O9dApwRiPZOnmf6ds_HRct/view?usp=drive_link)
+![этапы работы](https://i.imgur.com/eD0m6OO.png)
+
 
 Для проекта рассматривались 3 метода построения рекомендательных систем:
 - content-based
@@ -20,7 +21,7 @@ LightFun позволяет пользователю получать реком
 
 После всех этапов работ был реализован веб апп с помощью фреймворка  [Streamlit](https://streamlit.io/).
 
-пше 
+
 1. Парсинг данных(`requests, json`)  
 Сайт tesera реализован с открытым API. В итоге получено 2 датасета: содержащий информацию об играх и с информацией о юзере и как он оценил игры (от 1 до 10) .
 
@@ -52,6 +53,7 @@ LightFun позволяет пользователю получать реком
         "commentsTotalNew": 0,
         "teseraUrl": "https://tesera.ru/game/635932",
         "isAddition": false
+    },
 
 2.  EDA (`pandas, numpy, matplotlib, seaborn`)
  
@@ -78,4 +80,4 @@ LightFun позволяет пользователю получать реком
 
 
 Логика работы
-![enter image description here](https://drive.google.com/file/d/1MCP0sKOnn-hMmwl4gyOeuusDVhYZmQd9/view?usp=sharing)
+![enter image description here](https://i.imgur.com/gt54D1S.png)
