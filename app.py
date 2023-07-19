@@ -9,7 +9,7 @@ from PIL import Image
 import time
 
 
-image = Image.open('photo.png')
+image = Image.open('words.png')
 st.image(image)
 
 
